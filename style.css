@@ -1,7 +1,7 @@
 html,
 body {
   margin: 0;
-  padding: 0;
+  padding: 1.575rem 0 0 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 ul,
@@ -9,6 +9,16 @@ li {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 1rem 0;
+}
+p {
+  margin: 0;
+  padding-bottom: 1rem;
 }
 a:link,
 a:visited {
@@ -40,6 +50,33 @@ header a {
   display: flex;
   justify-content: space-evenly;
 }
-/* #nav li {
-  flex: auto;
-} */
+#welcome-section {
+  background: blueviolet;
+  background: linear-gradient(blueviolet, crimson);
+  color: #efefef;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 200%;
+}
+#welcome-section h1 {
+  margin: 0;
+}
+#welcome-section p {
+  font-style: italic;
+}
+#projects {
+  background: crimson;
+  background: linear-gradient(crimson, blueviolet);
+}
+#contact {
+  background: blueviolet;
+  background: linear-gradient(blueviolet, crimson);
+}
+footer {
+  background: gold;
+  padding: 1rem 0;
+  text-align: center;
+}
