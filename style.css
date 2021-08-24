@@ -102,6 +102,12 @@ a:active {
 #calculator {
   background-image: url("images/calculator.png");
 }
+#pomodoro {
+  background-image: url("images/pomodoro.png");
+}
+#quote-generator {
+  background-image: url("images/quote-generator.png");
+}
 #contact {
   background: blueviolet;
   background: linear-gradient(blueviolet, crimson);
