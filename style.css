@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 1.575rem 0 0 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  scroll-behavior: smooth;
 }
 ul,
 li {
@@ -17,6 +18,9 @@ h1 {
 p {
   margin: 0;
   padding-bottom: 1rem;
+}
+a {
+  transition: 0.125s;
 }
 a:link,
 a:visited {
@@ -91,6 +95,7 @@ a:active {
   border-style: solid;
   border-image: linear-gradient(blueviolet, crimson) 1;
   border-image-outset: 0.5rem 0 0 0.5rem;
+  transition: none;
 }
 .project-tile a:hover {
   border-image: linear-gradient(gold, yellow) 1;
