@@ -70,6 +70,23 @@ header a {
 #projects {
   background: crimson;
   background: linear-gradient(crimson, blueviolet);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+/* #project-tile a {
+  display: block;
+  width: 100%;
+  height: 100%;
+} */
+#outside {
+  background: url("images/outside.png");
+}
+#calculator {
+  background: url("images/calculator.png");
+}
+#project-text h3,
+#project-text p {
+  text-align: center;
 }
 #contact {
   background: blueviolet;
