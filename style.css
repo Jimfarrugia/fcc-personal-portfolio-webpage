@@ -82,17 +82,19 @@ a:active {
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 5px;
 }
 .project-tile a {
   display: block;
   height: calc(100% - 0.5rem);
   width: calc(100% - 0.5rem);
-  border-radius: 5px;
-  border: 0.5rem solid crimson;
+  border-width: 0.5rem;
+  border-style: solid;
+  border-image: linear-gradient(blueviolet, crimson) 1;
+  border-image-outset: 0.5rem 0 0 0.5rem;
 }
 .project-tile a:hover {
-  border-color: blueviolet;
+  border-image: linear-gradient(gold, yellow) 1;
+  border-image-outset: 0.5rem 0 0 0.5rem;
 }
 #outside {
   background-image: url("images/outside.png");
@@ -123,6 +125,7 @@ footer {
   background: gold;
   padding: 1.25rem 0;
   text-align: center;
+  line-height: 1.5;
 }
 @media screen and (max-width: 1020px) {
   #projects {
