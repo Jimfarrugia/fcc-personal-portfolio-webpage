@@ -110,7 +110,17 @@ header a {
 #contact {
   background: blueviolet;
   background: linear-gradient(blueviolet, crimson);
+  padding: 5rem 0 4rem;
   text-align: center;
+  line-height: 4;
+}
+#contact a:link,
+#contact a:visited {
+  color: #efefef;
+}
+#contact a:active,
+#contact a:hover {
+  color: gold;
 }
 footer {
   background: gold;
